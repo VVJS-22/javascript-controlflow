@@ -3,7 +3,7 @@
 
 // const number = parseInt(prompt("Enter a n
 
-// Math.random()*(max-min+1)+min;
+// Math.random()*(max-min)+min;
 
 const number = Math.floor(Math.random()*10);
 console.log(number);
@@ -102,4 +102,14 @@ for (let i = 0; i < 10; i++) {
     console.log (i);
     
 }
+
+function greeting(name , query) {
+    let result = 'Hello ' + name + " "+ query
+    console.log(result)
+   
+    
+}
+
+greeting ("nirmal", "how are you");
+greeting ("santhosh", "who are you");
 
